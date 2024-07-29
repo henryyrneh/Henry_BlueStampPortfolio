@@ -49,13 +49,6 @@ For my first milestone, I completed the base construction of a machine and some 
 
 During the course of the project, I used a variety of resistor values and had to find the perfect one. I recorded the lowest voltage readings when using resistors of values of lower resistance. This is because it allows more current to flow through them; hence, there will be a lower voltage drop across the resistor. The readings were the highest when I used the 1MΩ resistor. This could be because the higher the resistance, the more it restricts current flow, hence the larger the voltage drop across the resistor. It is the 1MΩ resistor that gave the maximum values obtained so far, hence being the most appropriate for detecting changes in skin resistance. Again, with higher voltage values, I easily noticed changes since these values were more accurate. The higher voltage values gave a finer line of demarcation between the different ranges of skin resistance and thus facilitated the correct detection of a stress response that might indicate lying. In the future I plan to use LEDs to indicate wether the person in fingerstraps if lying or not.
 
-
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
-
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
