@@ -31,9 +31,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q7CZFGnQ5iE?si=k9j5a3OE7kBv_rPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I have done a lot towards the completion of my project, which is the lie detector. The main work I have done so far is on the technical development of my project. I added a potentiometer in the system so I could adjust and vary the values of resistors. This brings more flexibility and finer adjustment to the circuit, so it's more sensitive, and thus able to respond to variations in skin resistance. Adding three LEDs, namely green, yellow, and red, was also done to show the indication of voltage values when they increase. These LEDs provide instant, clear indication of possible lies: green if the levels are normal, yellow if they are at a moderate increase, and red if they are at a high increase in voltage. I have also changed the code to support these new features so that the LEDs light accordingly, based on the voltage readings. What has really surprised me about this project is the amount of progress I have made and new techniques that I have tried. I never expected to learn and implement all that in such a short time. It was very rewarding to add new components like the potentiometer and LEDs, making them run together. But more engaging was observing changes in the circuit and its code and their impact on the final functional working and accuracy of the lie detector.
 
