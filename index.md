@@ -1,10 +1,8 @@
 # Lie Detector Project
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+I did a lie detector for my summer 2024 robotics project at BlueStamp Engineering. It required me to build a device that would read the skin's resistance and heart rate, which changes when under stress and possibly during a person's lying. Some challenges included calibrating the circuit and integrating all components together while integrating the components together was definitely the most remarkable success.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
+
 ```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
