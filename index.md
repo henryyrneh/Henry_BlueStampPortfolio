@@ -60,6 +60,7 @@ void loop() {
 
 # Bill of Materials
 
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino UNO R3 | Microcontroller board | $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6"> Link </a> |
@@ -78,6 +79,8 @@ void loop() {
 |:--:|:--:|:--:|:--:|
 | Jumper Wires | To connect components | $9.99 for 120| <a href="https://www.amazon.com/Connector-Solderless-Multicolor-Electronic-Breadboard/dp/B09FPGT7JT/ref=sr_1_9?crid=1H5MNE8UJCQ85&dib=eyJ2IjoiMSJ9.3RCqBV5uANqz97h11oobgzoMEg-sDzmdcegVVETHYTiAN764f2_F0pJj28vMzniqSuYX7PDAeJZwVAT1c9y-Y-kwsJ8-mH4EmNHsJBj4qYYTL9Wb02QR8pl8e4VfeShyD563yFo4vQHdxMVMNYxMfJg3kziB2_beHU6xJJ9ORSNaTdNpk3aAxxPO_SsxgFSEYDUEUhZ-fvPYNCGimU1tDdBWc7zXIsR2sqPYBVPhauAecjgeQmzJp9lIyGJFd9Y0xu1Guy69GnjgyMmYmxirfoSHnYanqEkiDLU1S_WCl_k.sP5yQHjAqfO-cH48HQnqQWVYSbTPParhv6OwfUklJYI&dib_tag=se&keywords=jumper+wires+arduino&qid=1722972983&sprefix=jumper+wires+arduino%2Caps%2C144&sr=8-9"> Link </a> |
 |:--:|:--:|:--:|:--:|
+
+
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
