@@ -1,10 +1,6 @@
 # Lie Detector Project
 I did a lie detector for my summer 2024 robotics project at BlueStamp Engineering. It required me to build a device that would read the skin's resistance and heart rate, which changes when under stress and possibly during a person's lying. Some challenges included calibrating the circuit and integrating all components together while integrating the components together was definitely the most remarkable success.
 
-```HTML 
-
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Henry Y | Sage Hill | Mechanical Engineering | Incoming Sophomore
@@ -68,10 +64,14 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
+| Arduino UNO R3 | Microcontroller board | $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6"> Link </a> |
+| Breadboard | For organizing components | $8.99 for 3 | <a href="https://www.amazon.com/EL-CP-003-Breadboard-Solderless-Distribution-Connecting/dp/B01EV6LJ7G/ref=sr_1_5?crid=PFNV9D4GYGUN&dib=eyJ2IjoiMSJ9.YB1cQnPdW7IDeZYbUd02IAwttxypLcFsu9cyvR7_BHc2cEp4uX_BoFdB-kGIGiSG8IBm7Y5SUgp0L0VV9HPkC218PlLOeriZ1zvfb6zWGZ6Xph5pBxJnmD_M0qaA-LB4Uyw1qJu3TEx2aV2v6cPFmei_rBZ0Q0_WCcPPejfYrNochsVRM4WTexrge3UWARLFXRqX1y11bIrBosAmnE5kk09IL9Z8v8lvjgisegNgiiRNJjWtU43C_r54_ugFS7iFyySNLNxlS8KB95WwbowaZmPMhxmmDpCOyCDPlqV4ldQ.QTqR1Na2J15ZletXvFLOr5wnuIBxvHEvxdgvKThyuoM&dib_tag=se&keywords=Breadboard&qid=1722971435&s=electronics&sprefix=breadboard%2Celectronics%2C168&sr=1-5"> Link </a> |
+| Potentiometer 200K | Adjusts resistor values | $12.99 for 150 piece kit | <a href="https://www.amazon.com/BOJACK-Variable-Resistor-Potentiometer-Assortment/dp/B07WHJMVR4/ref=sr_1_4?dib=eyJ2IjoiMSJ9.dkj5LLbVPRfxx_l4IGuVPALkvR8qM04SqTeOCKNBez3gPuSzK9GR19MzIg-hlVIElBg7wPP-q1aeOAvlkhCWK7JBPNvb6owgq93Ile3sQOP4xlToHer3h0dtwa3kV7qEDiT7LnvD6uLHCrrNxs0LjaGBWgoXnCLYBRcI5dCdaW0enbzU-U6W9WhwxYXUuffjGnSwoKU_7ZRh9GwB9a-3XQwoipiaESmryFTvNG5jUvg.NuuGZumkcjVMTQBdTODHU431GWQrVZGPX-mXl35FvQ0&dib_tag=se&keywords=potentiometer+kit&qid=1722971581&sr=8-4"> Link </a> |
+| LED lights | Lights up if user is lying | $6.35 for 100| <a href="https://www.amazon.com/eBoot-Pieces-Emitting-Diodes-Assorted/dp/B06XPV4CSH/ref=sr_1_25?crid=2FLFAP08UAGX0&dib=eyJ2IjoiMSJ9.BrWNuyvdfGKQ871YguwPw-AkLxY9SzriGp2TcHCqnBd_mYU_7PYKnR9-Ox5ERTZsy76HXf7S2rbK8V_-8M2cj6YbYvjClkqJ4oVKUZR8oH46wsWB2zWBhDtfFHcapLrOL7qg3EYeRDPHKwIXSW9muNuMgud4nW0RkIPEYYraqBjbq4GVK3k4INox4-6T2nEyaoN82tKm9nJEQsK8mDuj0WkHRYU6475MOCplUhmJWIdlHaA32-CpvI8DlPg29R3IxSloxokx35zbf715aE7tFc7CoutIx4v-xTQFDN3NytU.MHQB_1j_K0dLGo1FPgs_1K_DgYt7t4r-oxtnfR3ZZFI&dib_tag=se&keywords=leds&qid=1722971673&sprefix=le%2Caps%2C186&sr=8-25"> Link </a> |
+| Heartrate sensor | Takes users heartrate | $24.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/PulseSensor-com-Original-Pulse-Sensor-project/dp/B01CPP4QM0/ref=sr_1_5?crid=V1X45IO2H22X&dib=eyJ2IjoiMSJ9.omvcbO-9ZS9tHDMBOgh1y5_am-fN48dYe9GGs1Yi9eihAncFvFKbPGtaMMGo8PlloW4BHD0vb5BMgpiKHQ22lZYG6rLR0lrGyiPvDftVCgbR1_baAgAgRjVfGGyw2JoRCdsWM-piPbDnfkbHxXWKn8HB1Dr-lav5kP-oAhUQQ1HGXmuHX5WnQr5D8iThtNSHoV5I8SC80SkyY1WRoB-CRFwLLC2KyuKNl7sVxVhEXG8.saUkDDAvTiV1sMyddbCAsjKqQ2CiSvk5U0bO41FhzAw&dib_tag=se&keywords=heart+rate+sensor+arduino&qid=1722971795&sprefix=heart+rate+sensor+ardu%2Caps%2C558&sr=8-5)"> Link </a> |
+| Test Leads | Collects users voltage | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
