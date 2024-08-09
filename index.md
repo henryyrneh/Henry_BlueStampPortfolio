@@ -39,15 +39,80 @@ During the course of the project, I used a variety of resistor values and had to
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+const int GSR=A1; // for collecting sensorValue
+const int PulseWire = 0;           
+int Threshold = 550; // for pulse sensor
+int threshold=900;
+int sensorValue; // Value collected from skin resistence
+#define USE_ARDUINO_INTERRUPTS true //Set-up low-level interrupts for most acurate BPM math
+#include <PulseSensorPlayground.h> // Includes the PulseSensorPlayground Library
+PulseSensorPlayground pulseSensor;
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pulseSensor.analogInput(PulseWire);   
+  pulseSensor.setThreshold(Threshold);  
+  pinMode(2, OUTPUT); // Green LED
+  pinMode(3, OUTPUT); // Yellow LED
+  pinMode(4, OUTPUT); // Red LED
+  digitalWrite(2, HIGH);
+  delay(500);
+  digitalWrite(3, HIGH);
+  delay(500);
+  digitalWrite(4, HIGH);
+  delay(500);
+  digitalWrite(2, LOW);
+  delay(500);
+  digitalWrite(3, LOW);
+  delay(500);
+  digitalWrite(4, LOW);
+  delay(500);
+  if (pulseSensor.begin()) {
+    Serial.println("We created a pulseSensor Object !"); // Tells you the pulse sensor is working
+  }
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+sensorValue=analogRead(GSR); // Uses the A1 to collect the sensorValue
+int myBPM = pulseSensor.getBeatsPerMinute();
+if (myBPM > 0){ // Only prints the BPM if it is being collected
+  Serial.print("BPM: ");                        
+  Serial.println(myBPM); // Prints your heart rate
+}
+// All the if statements are for when the LED lights up depending on the user's skin resistence
+if (sensorValue > 250){
+  digitalWrite(4, HIGH);
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
+  Serial.println("User is lying");
+}
+else{
+  if(sensorValue > 220){
+    digitalWrite(4, LOW);
+    digitalWrite(3, HIGH);
+    digitalWrite(2, LOW);
+    Serial.println("User may be lying");
+  }
+  else{
+    if(sensorValue > 100){
+      digitalWrite(4, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(2, HIGH);
+      Serial.println("User is not lying");
+    }
+    else{
+      digitalWrite(4, LOW);
+      digitalWrite(3, LOW);
+      digitalWrite(2, LOW);
+    }
+  }
+}
 
+  if(sensorValue > 0){ // Only prints sensorValue when the fingerstraps are connected
+    Serial.print("Voltage: ");
+    Serial.println(sensorValue);
+  }
+
+  delay(1000); // Sets a delay before the loop runs agian
 }
 ```
 
