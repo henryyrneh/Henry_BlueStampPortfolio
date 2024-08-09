@@ -5,9 +5,7 @@ I did a lie detector for my summer 2024 robotics project at BlueStamp Engineerin
 |:--:|:--:|:--:|:--:|
 | Henry Y | Sage Hill | Mechanical Engineering | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_2612.webp)
   
 # Final Milestone
 
