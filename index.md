@@ -11,15 +11,11 @@ I did a lie detector for my summer 2024 robotics project at BlueStamp Engineerin
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cNwu9Yx4r1g?si=nlBvfURgD2xEgk_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+I have worked substantially to the extent that I custom-made a housing for my Arduino UNO R3 and breadboard. I also replaced the old heart rate sensor with a custom-made inbuilt heart rate sensor. Additionally, the 10k ohm potentiometer is upgraded to a 200k ohm potentiometer, which gives much finer adjustments. Thus, these enhance the usability of my lie detector project towards completion both physically and functionally. Integrating new components into the existing circuit, like the heart rate sensor and the 200k ohm potentiometer, was quite a challenge to me. It took so many troubleshooting efforts and coding adjustments before all the devices would work in harmony. But conquering those challenges was my greatest triumph. Indeed, seeing the project evolve and working exactly the way it is intended to has been rewarding. It has taught me the importance of persistence and adaptability in problem-solving.
 
-
+I have built up a good knowledge base in circuit design, Arduino coding, and practical application of sensors in electronics. Troubleshooting techniques and designing custom housing to give a professional finish at the end of a project were also some of the skills acquired. These skills did not only help me empower myself to complete this lie detector project but also gave me the requisite confidence to tackle more complex projects in the future. This will let me further develop principles learned at BSE and delve deeper into advanced electronics and programming. I would like to learn about more complex sensors and how they can be applied in bigger systems. Furthermore, I am highly interested in learning more about data analysis and machine learning to be able to design more intelligent and responsive devices. I would like to continue to challenge myself with even more ambitious projects that would push my current skill level.
 
 # Second Milestone
 
